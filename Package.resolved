@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GitKit",
+        "repositoryURL": "https://github.com/danielctull/GitKit.git",
+        "state": {
+          "branch": "main",
+          "revision": "951936e6a86f05e034beb8244396b689d1b8602e",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
+        "state": {
+          "branch": null,
+          "revision": "92646c0cdbaca076c8d3d0207891785b3379cbff",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "Tagged",
+        "repositoryURL": "https://github.com/pointfreeco/swift-tagged",
+        "state": {
+          "branch": null,
+          "revision": "592e1eb4255c571ebffc29955011e352217501b4",
+          "version": "0.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
