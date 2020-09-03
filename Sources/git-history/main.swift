@@ -16,7 +16,7 @@ struct GitHistory: ParsableCommand {
         let hunks = try blame.hunks()
         for hunk in hunks {
             let commit = try repo.commit(for: hunk.commitID)
-            print("\(commit.id.description.dropFirst(33)): Lines \(hunk.lines) by \(commit.author.name)")
+            print("\(commit.id.shortDescription): Lines \(hunk.lines) by \(commit.author.name)")
         }
     }
 }
